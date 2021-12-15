@@ -9,12 +9,12 @@
 </head>
 <body>
 <?php
-include './readProducts.php'
-// your code
-// your code here 2
-// hello
-$a2 = $prodectes[1];
-echo $a2;
+include './readProducts.php';
+
+/*foreach($prodectes as $pr)
+        {
+             echo $pr->getName().'<br>';
+        }*/
 ?>   
 </body>
 </html>
